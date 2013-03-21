@@ -1,0 +1,2 @@
+[Thu Mar 21 22:11:54 2013] [error] (9)Bad file descriptor: apr_socket_accept: (client socket) apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName
+[Tue Feb 28 14:34:41 2012] [notice] [client 192.168.50.10] Symbolic link not allowed or link target not accessible: /usr/local/apache2/htdocs/x.js
