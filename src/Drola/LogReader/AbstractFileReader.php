@@ -14,7 +14,7 @@ abstract class AbstractFileReader implements ReaderInterface
     {
         $this->fh = fopen($filename, "r");
         if (!$this->fh) {
-            throw new Exception(sprintf("Cannot open %s", $filename));
+            throw new \Exception(sprintf("Cannot open %s", $filename));
         }
         $this->backwards = $backwards;
         $this->rewind();
